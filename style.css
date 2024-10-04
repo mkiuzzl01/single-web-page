@@ -1,33 +1,64 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-.container{
-    max-width:1280px;
-    margin: auto;
+.container {
+  max-width: 1280px;
+  margin: auto;
 }
 
 /* shared classes */
-.primary_btn{
-    background-color: #FFEEAD;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
+.primary_btn {
+  background-color: #ffeead;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+.secondary_btn {
+  background-color: #ffad60;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
 }
 
 /* navbar related css */
-nav{
-    display: flex;
-    justify-content: space-between;
-    background: #96CEB4;
-    padding: 20px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #96ceb4;
+  padding: 20px;
 }
 .menu > ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 .list > li {
-    padding-left: 10px;
+  padding-left: 10px;
 }
+
+/* hero section related css */
+.hero {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(assets/banner.jpg);
+}
+
+.hero_content {
+  padding: 50px;
+  opacity: 0.6;
+  background-color: #ffffff;
+  height: 500px;
+}
+.hero_content > h1 {
+  font-size: 50px;
+  color: black;
+}
+.hero_btn {
+  padding-top: 50px;
+}
+
+
