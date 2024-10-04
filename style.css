@@ -8,7 +8,7 @@
   max-width: 1280px;
   margin: auto;
 }
-
+/* ================================ */
 /* shared classes */
 .primary_btn {
   background-color: #ffeead;
@@ -40,10 +40,11 @@
     background: #a35207;
     color: white;
 }
-
+/* ================================= */
 /* navbar related css */
 nav {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background: #96ceb4;
   padding: 20px;
@@ -58,7 +59,7 @@ nav {
 .list > li {
   padding-left: 10px;
 }
-
+/* ======================================== */
 /* hero section related css */
 .hero {
   height: 500px;
@@ -81,7 +82,7 @@ nav {
 .hero_btn {
   padding-top: 50px;
 }
-
+/* ======================================== */
 /* card_section related css */
 .card_section_content {
   padding: 20px;
@@ -128,7 +129,7 @@ justify-content: space-between;
     font-size: large;
 
 }
-
+/* ======================================= */
 /* footer section related css */
 footer{
     padding: 40px;
@@ -155,4 +156,34 @@ footer{
 }
 .footer_description{
     margin-top:30px;
+}
+
+
+
+/* =============================== */
+/* responsive Related css */
+
+/* for mobile device */
+@media only screen and (max-width: 400px) {
+    nav .menu {
+      display: none;
+    }
+
+    .hero{
+        height:500px;
+    }
+    .hero .hero_content h1{
+        font-size: 24px;
+    }
+    .card_section_content h1{
+        font-size: 24px;
+    }
+    .card_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+
+/* for tablet */
+@media only screen and (max-width:700){
+
 }
