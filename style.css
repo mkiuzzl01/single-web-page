@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    max-width:1280px;
+    margin: auto;
+}
+
+/* shared classes */
+.primary_btn{
+    background-color: #FFEEAD;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* navbar related css */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #96CEB4;
+    padding: 20px;
+}
+.menu > ul {
+    list-style: none;
+    display: flex;
+}
+.list > li {
+    padding-left: 10px;
+}
