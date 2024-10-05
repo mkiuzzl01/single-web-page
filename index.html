@@ -11,15 +11,18 @@
       <!-- this is Navigation section -->
       <nav>
         <div class="logo">
-          <h1>Logo</h1>
+          <div onclick="handleToggle()" class="menu_icon">
+            <img src="assets/menu_icon.svg" alt="menu_icon" />
+          </div>
+          <h1>E-Buy</h1>
         </div>
-        <div class="menu">
-          <ul class="list">
-            <li><a href=""></a>Home</li>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Services</li>
-            <li><a href=""></a>Blog</li>
-            <li><a href=""></a>Contact</li>
+        <div id="menu" class="menu">
+          <ul onclick="handleToggle()" class="list">
+            <li><a class="text_black" href="#">Home</a></li>
+            <li><a class="text_black" href="#">About</a></li>
+            <li><a class="text_black" href="#">Services</a></li>
+            <li><a class="text_black" href="#">Blog</a></li>
+            <li><a class="text_black" href="#">Contact</a></li>
           </ul>
         </div>
         <div class="btn">
@@ -142,17 +145,20 @@
       <h1>E-Buy</h1>
       <div>
         <ul class="footer_link">
-          <li><a href=""></a>Home</li>
-          <li><a href=""></a>About</li>
-          <li><a href=""></a>Services</li>
-          <li><a href=""></a>Blog</li>
-          <li><a href=""></a>Contact</li>
+          <li><a class="text_white" href="#">Home</a></li>
+          <li><a class="text_white" href="#">About</a></li>
+          <li><a class="text_white" href="#">Services</a></li>
+          <li><a class="text_white" href="#">Blog</a></li>
+          <li><a class="text_white" href="#">Contact</a></li>
         </ul>
       </div>
       <hr class="hr" />
       <div class="footer_description">
-        © Copyright 2024. All Rights Reserved Tech-Tools.
+        © Copyright 2024. All Rights Reserved E-Buy.
       </div>
     </footer>
+
+    <!-- this is script link -->
+    <script src="Script.js"></script>
   </body>
 </html>
