@@ -9,7 +9,7 @@
   <body>
     <main class="container">
       <!-- this is Navigation section -->
-      <nav>
+      <nav id="nav">
         <div class="logo">
           <div onclick="handleToggle()" class="menu_icon">
             <img src="assets/menu_icon.svg" alt="menu_icon" />
@@ -18,11 +18,10 @@
         </div>
         <div id="menu" class="menu">
           <ul onclick="handleToggle()" class="list">
-            <li><a class="text_black" href="#">Home</a></li>
-            <li><a class="text_black" href="#">About</a></li>
-            <li><a class="text_black" href="#">Services</a></li>
-            <li><a class="text_black" href="#">Blog</a></li>
-            <li><a class="text_black" href="#">Contact</a></li>
+            <li><a class="text_black" href="#Home">Home</a></li>
+            <li><a class="text_black" href="#About">About</a></li>
+            <li><a class="text_black" href="#Products">Products</a></li>
+            <li><a class="text_black" href="#Contact">Contact</a></li>
           </ul>
         </div>
         <div class="btn">
@@ -30,7 +29,7 @@
         </div>
       </nav>
       <!-- this is Hero section -->
-      <header>
+      <header id="Home">
         <div class="hero">
           <div class="hero_content">
             <h1>
@@ -49,9 +48,9 @@
           </div>
         </div>
       </header>
-      <!-- this card section -->
-      <section>
-        <!-- card_section_content -->
+      <!-- this product section -->
+      <section id="Products">
+        <!-- product_section_content -->
         <div class="card_section_content">
           <h1>Explore our Products and choose</h1>
           <p>
@@ -141,14 +140,14 @@
         </div>
       </section>
     </main>
+    <!-- this is footer Section -->
     <footer>
       <h1>E-Buy</h1>
       <div>
         <ul class="footer_link">
           <li><a class="text_white" href="#">Home</a></li>
           <li><a class="text_white" href="#">About</a></li>
-          <li><a class="text_white" href="#">Services</a></li>
-          <li><a class="text_white" href="#">Blog</a></li>
+          <li><a class="text_white" href="#">Products</a></li>
           <li><a class="text_white" href="#">Contact</a></li>
         </ul>
       </div>

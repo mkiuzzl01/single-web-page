@@ -8,6 +8,9 @@
   max-width: 1280px;
   margin: auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* ================================ */
 /* shared classes */
 .primary_btn {
@@ -46,6 +49,9 @@
 .text_black {
   color: black;
 }
+.text_red {
+  color: #c26107;
+}
 /* ================================= */
 /* navbar related css */
 .menu_icon {
@@ -57,14 +63,20 @@
 }
 
 nav {
+  position: fixed;
+  max-width: 1280px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #96ceb4;
+  background-color: rgba(69, 96, 92, 0.398);
   padding: 20px;
-  position: sticky;
-  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   z-index: 1;
+}
+.scrolled {
+  background-color: #5ab7b7;
 }
 .logo {
   display: flex;
@@ -81,7 +93,9 @@ nav {
 /* ======================================== */
 /* hero section related css */
 .hero {
-  height: 500px;
+  position: relative;
+  width: 100%;
+  height: 40rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,14 +103,15 @@ nav {
 }
 
 .hero_content {
-  padding: 50px;
-  opacity: 0.6;
-  background-color: #ffffff;
-  height: 500px;
+  width: 100%;
+  height: 40rem;
+  padding: 10rem 5rem;
+  background-color: rgba(217, 217, 196, 0.6);
 }
 .hero_content > h1 {
   font-size: 50px;
   color: black;
+  padding-bottom: 3rem;
 }
 .hero_btn {
   padding-top: 50px;
@@ -128,8 +143,9 @@ nav {
   border-radius: 10px;
   padding: 20px;
 }
-.card:hover{
-  box-shadow: 2px 2px 5px #5ab7b7;
+.card:hover {
+  box-shadow: 1px 1px 6px 4px #5ab7b7;
+  transition-duration: 1s;
 }
 
 .card_image > img {
@@ -182,15 +198,6 @@ footer {
 
 /* for mobile device */
 @media only screen and (max-width: 400px) {
-  .hero {
-    height: 500px;
-  }
-  .hero .hero_content h1 {
-    font-size: 24px;
-  }
-  .card_section_content h1 {
-    font-size: 24px;
-  }
   .card_container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -218,6 +225,15 @@ footer {
   }
   .menu ul {
     flex-direction: column;
+  }
+  .hero .hero_content h1 {
+    font-size: 2rem;
+  }
+  .hero_content {
+    padding: 15rem 2rem;
+  }
+  .card_section_content h1 {
+    font-size: 1rem;
   }
   .card_container {
     grid-template-columns: repeat(1, 1fr);
