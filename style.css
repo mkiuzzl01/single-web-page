@@ -238,4 +238,8 @@ footer {
   .card_container {
     grid-template-columns: repeat(1, 1fr);
   }
+  .hr{
+    width: 80%;
+    margin: auto;
+  }
 }
