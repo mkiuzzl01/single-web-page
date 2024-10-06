@@ -2,7 +2,7 @@
 // =============================================
 const handleGetData = async () => {
   const cardContainer = document.getElementById("card_container");
-  fetch("/assets/Products.json")
+  fetch("assets/Products.json")
     .then((res) => res.json())
     .then((json) => {
       let data = json;
