@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 //fetch data form asset file
 // =============================================
 const handleGetData = async () => {
@@ -41,7 +39,6 @@ const handleGetData = async () => {
 
 handleGetData();
 
->>>>>>> 3bffe0e (add to json data and dynamically render the data with card in html document)
 // toggling nav related
 const handleToggle = () => {
   const menu = document.getElementById("menu");

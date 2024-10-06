@@ -34,15 +34,6 @@ html {
   color: white;
 }
 .buy_btn {
-<<<<<<< HEAD
-  background-color: #ffad60;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-}
-.buy_btn:hover {
-  background: #a35207;
-=======
   background-color: #86efac;
   padding: 0.5rem 1rem;
   border: none;
@@ -50,7 +41,6 @@ html {
 }
 .buy_btn:hover {
   background: #22c55e;
->>>>>>> 3bffe0e (add to json data and dynamically render the data with card in html document)
   color: white;
 }
 .text_white {
@@ -78,11 +68,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-<<<<<<< HEAD
-  background-color: rgba(69, 96, 92, 0.398);
-=======
   background-color: rgba(187, 247, 208, 0.398);
->>>>>>> 3bffe0e (add to json data and dynamically render the data with card in html document)
   padding: 20px;
   left: 0;
   right: 0;
@@ -90,11 +76,7 @@ nav {
   z-index: 1;
 }
 .scrolled {
-<<<<<<< HEAD
-  background-color: #5ab7b7;
-=======
   background-color: #bbf7d0;
->>>>>>> 3bffe0e (add to json data and dynamically render the data with card in html document)
 }
 .logo {
   display: flex;
@@ -147,28 +129,13 @@ nav {
 }
 .card_container {
   padding-top: 10px;
-<<<<<<< HEAD
-=======
   padding-bottom: 10px;
->>>>>>> 3bffe0e (add to json data and dynamically render the data with card in html document)
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(2, 1fr);
 }
 .card {
   display: flex;
-<<<<<<< HEAD
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 10px;
-  text-align: center;
-  border: 2px solid #f5f5f7;
-  border-radius: 10px;
-  padding: 20px;
-}
-.card:hover {
-  box-shadow: 1px 1px 6px 4px #5ab7b7;
-=======
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -179,14 +146,10 @@ nav {
 }
 .card:hover {
   box-shadow: 1px 1px 6px 4px #bbf7d0;
->>>>>>> 3bffe0e (add to json data and dynamically render the data with card in html document)
   transition-duration: 1s;
 }
 
 .card_image > img {
-<<<<<<< HEAD
-  width: 300px;
-=======
   width: 12rem;
 }
 .card_label {
@@ -198,31 +161,17 @@ nav {
 }
 .rating {
   color: #eab308;
->>>>>>> 3bffe0e (add to json data and dynamically render the data with card in html document)
 }
 
 .card_content > h4 {
   font-size: 24px;
   font-weight: 600px;
 }
-<<<<<<< HEAD
-.card_end {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.card_end > p {
-  font-weight: 900;
-  font-size: large;
-}
-=======
 .card_content > p {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
->>>>>>> 3bffe0e (add to json data and dynamically render the data with card in html document)
 /* ======================================= */
 /* footer section related css */
 footer {
@@ -295,11 +244,7 @@ footer {
   .card_container {
     grid-template-columns: repeat(1, 1fr);
   }
-<<<<<<< HEAD
-  .hr{
-=======
   .hr {
->>>>>>> 3bffe0e (add to json data and dynamically render the data with card in html document)
     width: 80%;
     margin: auto;
   }
