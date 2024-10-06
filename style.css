@@ -37,7 +37,7 @@ html {
   background-color: #86efac;
   padding: 0.5rem 1rem;
   border: none;
-  border-radius:0.5rem;
+  border-radius: 0.5rem;
 }
 .buy_btn:hover {
   background: #22c55e;
@@ -202,14 +202,7 @@ footer {
 /* =============================== */
 /* responsive Related css */
 
-/* for mobile device */
-@media only screen and (max-width: 400px) {
-  .card_container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-/* for tablet */
+/* for small device */
 @media only screen and (max-width: 700px) {
   nav .menu {
     display: none;
